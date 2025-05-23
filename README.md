@@ -1,14 +1,15 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
 
+## Name : Anbuselvan S
+## Reg no :212223240008
+## Date of experiment : 21-05-2025
 
+## Aim: 
+To Write and execute ALP on fundamental arithmetic and logical operations
 
+## Components required:
+8086  emulator 
 
-
-## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
-## Components required: 8086  emulator 
 ## Theory 
 Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as EMU8086, is an emulator of the program 8086 microprocessor. It is developed with a built-in 8086 assembler. This application is able to run programs on both PC desktops and laptops. This tool is primarily designed to copy or emulate hardware. These include the memory of a program, CPU, RAM, input and output devices, and even the display screen. There are instructions to follow when using this emulator. It can be executed into one of the two ways: backward or forward. There are also examples of assembly source code included. With this, it allows the programming of assembly language, reverse engineering, hardware architecture, and creating miniature operating system (OS). The user interface of 8086 Microprocessor Emulator is simple and easy to manage. There are five major buttons with icons and titles included. These are “Load”, “Reload”, “Step Back”, “Single Step”, and “Run”. Above those buttons is the menu that includes “File”, “View”, “Virtual Devices”, “Virtual Drive”, and “Help”. Below the buttons is a series of choices that are usually in numbers and codes. At the leftmost part is an area called “Registers” with an indication of either “H” or “L”. The other side is divided into two, which enables users to manually reset, debug, flag, etc. What is 8086 emulator emu8086 is an emulator of Intel 8086 (AMD compatible) microprocessor with integrated 8086 assembler and tutorials for beginners. Emulator runs programs like the real microprocessor in step-by-step mode. it shows registers, memory, stack, variables and flags.
 
@@ -42,7 +43,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-9.	Click on emulate to start emulation 
+9.	Click on emulate to start emulation
 
 
 
@@ -78,30 +79,97 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+MOV AL,21H;
+MOV BL,30H;
+ADD AL,BL;
+RET
+
+```
+
+## Output 
+
+![b217615fd2c34dd98a60242589c67a48](https://github.com/user-attachments/assets/e73fbcd2-9f8a-4ae0-85ea-546d3ac36c8f)
 
 
-
-## Output  
- 
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
+ ```
+MOV AL,21H;
+MOV BL,30H;
+SUB AL,BL;
+RET
+```
+
+## Output
+![b58a6ee6a9394db8a13b8b010bb25ac9](https://github.com/user-attachments/assets/5a4d9893-34bf-49ae-b6e3-b853deb141d1)
+
 ## Multiplication alp 
- ## Output  
+```
+MOV AL,21H;
+MOV BL,30H;
+MUL AL;
+RET
+```
+ ## Output 
+
+![1d349248ce224894b0ab83f9985f373b](https://github.com/user-attachments/assets/5f3a2849-dd32-4162-99e6-941dac1c65c2)
 
 
 ## Division alp 
-
+```
+MOV AL,21H;
+MOV BL,30H;
+DIV AL;
+RET
+```
 ## Output  
+![4ce472e07e82494d88e525037164fc82](https://github.com/user-attachments/assets/f44ca770-321c-4ae1-9a8b-ce1f3829d23a)
+
+
+## AND alp
+```
+MOV AL,21H;
+MOV BL,30H;
+AND AL,BL;
+RET
+```
+## Output
+![and](https://github.com/user-attachments/assets/f79247c9-3781-44ff-a486-8cc2176fdf94)
+
+
+## OR alp
+```
+MOV AL,21H;
+MOV BL,30H;
+OR AL,BL;
+RET
+```
+## Output
+![or](https://github.com/user-attachments/assets/17418480-3a30-4f6e-9208-4e8669de1c20)
+
+
+
+## NOT alp
+```
+mov ax,6355h;
+mov bx,1233h;
+not ax;
+ret
+```
+## Output
+![image](https://github.com/user-attachments/assets/de244283-10e3-4d83-a427-2eaa91975ee1)
+
+## XOR alp
+```
+MOV AL,21H;
+MOV BL,30H;
+XOR AL,BL;
+RET
+```
+## Output
+![xor](https://github.com/user-attachments/assets/0f7f13d3-016e-4150-bf4f-331d91d581a2)
+
 
 
 ## Result :
- 
-
-
-
-
-
-
-
-
+ Thus, ALP for fundamental arithmetic and logical operations are executed successfully
